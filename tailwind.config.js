@@ -9,6 +9,9 @@ module.exports = {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
       },
     },
+    backgroundImage: {
+      'king': "url('./src/resources/images/background.png')",
+    },
   },
   plugins: [],
 }
